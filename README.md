@@ -1,3 +1,3 @@
 ```
-python3 run_all_buckets_fast.py   --buckets unique_akamai_cnames.txt   --resolvers resolvers_s10000.txt --workers 350   --timeout 1.0 --out out_all_buckets_r10000.json
+python3 run_all_buckets_fast.py   --buckets unique_akamai_cnames.txt   --resolvers resolvers_validated_final.txt   --workers 400   --in-flight 4000   --timeout 1.0   --max-consecutive-timeouts 5   --progress-every 20000   --progress-seconds 15   --out out_all_buckets_r28000.jsonl
 ```
