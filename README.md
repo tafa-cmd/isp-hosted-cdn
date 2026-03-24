@@ -5,3 +5,7 @@ python3 run_all_buckets_fast.py   --buckets unique_akamai_cnames.txt   --resolve
 ```
 python3 analyze_all_buckets_a.py --in out_all_buckets_r28000.jsonl --out-ips unique_ipv4_r28000.txt
 ```
+
+```
+  python3 run_all_buckets_fast.py   --buckets unique_akamai_cnames.txt   --resolvers resolvers_validated.txt   --workers 400   --in-flight 2000   --timeout 1.0   --max-consecutive-timeouts 5   --progress-every 10000   --progress-seconds 15   --out out_all_buckets_r25000.jsonl
+```
