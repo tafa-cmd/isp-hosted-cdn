@@ -1,5 +1,8 @@
 ```
-python3 run_all_buckets_fast.py   --buckets unique_akamai_cnames.txt   --resolvers resolvers_validated_final.txt   --workers 400   --in-flight 4000   --timeout 1.0   --max-consecutive-timeouts 5   --progress-every 20000   --progress-seconds 15   --out out_all_buckets_r28000.jsonl
+python3 run_all_buckets_fast.py   --buckets unique_ak
+amai_cnames.txt   --resolvers add_2k_56.txt   --workers 450   --in-flight 2000   --timeout 1.
+0   --max-consecutive-timeouts 5   --progress-every 10000   --progress-seconds 15   --out out
+_all_buckets_r2000-56.jsonl
 ```
 
 ```
